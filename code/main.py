@@ -2,7 +2,7 @@ import pygame, sys
 from settings import *
 
 class Game:
-    def __init__(self) -> None:
+    def __init__(self):
 
         # general setup of the screen and time of the game to run
         pygame.init()
@@ -15,10 +15,12 @@ class Game:
                 if event.type == pygame.QUIT:
                     pygame.quit()
                     sys.exit()
+                    
             self.screen.fill('black')
             pygame.display.update()
             self.clock.tick(FPS)
+
 if __name__ == '__main__' :
     game = Game()
-    game.run
+    game.run()
                     
