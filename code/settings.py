@@ -1,7 +1,12 @@
+#Screen resolution
 WIDTH       = 1280
 HEIGHT      = 720
+
+#"Other" technical aspects
 FPS         = 60
 TILESIZE    = 64
+
+#General world map
 
 WORLD_MAP = [
 
