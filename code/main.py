@@ -29,5 +29,4 @@ class Game:
 #Cast of the class Game and the method Run
 if __name__ == '__main__':
     game = Game()
-    game.run()
-                    
+    game.run() 
